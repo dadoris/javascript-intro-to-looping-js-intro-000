@@ -14,18 +14,3 @@ function whileLoop(inputNumber){
   }
   return 'done' ;
 }
-
-
-
-let i = 1;
-
-function incrementVariable() {
-  return i++;
-}
-
-
-function doWhileLoop(integerNumber){
-  do {
-    console log(`I run once regardless.`) ;
-  } while (incrementVariable() < integerNumber);
-}
